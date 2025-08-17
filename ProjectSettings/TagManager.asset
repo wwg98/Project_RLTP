@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Network_Manager
+  - Scenes_Controller
+  - Field_Ground
+  - Player_Rabbit
+  - Player_Fox
+  - Rabbit_Virtual_Camera
+  - Fox_Virtual_Camera
+  - Interface
+  - Map_WAll
+  - Fox_Head
+  - Rabbit_Head
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostProcess
+  - Water
+  - UI
+  - Camera
+  - Player
+  - plalyer-sill
+  - wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
