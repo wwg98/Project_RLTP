@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 98e4abf9-5ade-4b0e-97cc-f773ddc2bb06
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: kr
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: kr
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - OnClickStartButton_RPC
+  - OpenUI
+  - OpenUI_RPC
+  - SyncParentTransform
+  - StartCountdown_RPC
+  - StartGame_RPC
+  - RPC_SetResult
+  - TurnChage
+  - RPCTurnChage
+  - RPCSetTurn
+  - FristChoice
+  - SetRoles
+  - AssignRoleToOtherPlayer
+  - SetAatoeRole
+  - RPC_NextTurn
+  - RPC_selectCard
+  - RPC_ExitCard
+  - RPC_StartCount
+  - RPC_StartTimer
+  - RPC_StartCounting
+  - RPC_selectCardForce
+  - RPC_SetTrigger
+  - RPC_SyncAnimation
+  - RPC_SyncTransform
+  - RPC_AttackEnd
+  - RPC_RollEnd
+  - RPC_RollStart
+  - RPC_EnableAttackZone
+  - RPC_Dead
+  - RPC_Setinerface
+  - RPC_DownCard
+  - RPC_ReSpawn
+  - RPC_player_Move
+  - RPC_CardSetting
+  - PRC_GetFoxScore
+  - RPC_GetRabbitScore
+  - RPC_ExitOpen
+  - RPC_Respawn2
+  - RPC_ReSpawn2
+  - ShowTimer
+  - RPC_VictoryProgress
+  - RPC_HandleExit
+  - RPC_NextRound
+  - RPC_ExitReSpawn
+  - RPC_StartSlowMotion
+  - RPC_Click_fix_Role
+  - RPC_Click_Lobby
+  - RPC_Click_Reset
+  - SetRole
+  - RPC_rabbitscoreget
+  - RPC_SetCardID
+  - RPC_Button_click
+  - RanmdomMap
+  - RPC_FoxWin
+  - RPC_foxscoreget
+  - StartTimer_RPC
+  - NextScene
+  - RPC_CancelTimer
+  - RPC_NextScene
+  - MoveCrown
+  - RPCCardRefill
+  - RPCOpenDoor
+  - RoundEnd
+  - UIUP_RPC
+  - counting_RPC
+  - RPC_SelectCardAndSync
+  - RPC_RespawnPlayer
+  - RPC_ExitToLobby
+  - SyncDoors
+  - <DoorRoutine>g__SyncDoors|4_2
+  - RPC_cardchoice
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1
