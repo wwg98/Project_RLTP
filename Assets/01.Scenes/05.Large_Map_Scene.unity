@@ -1687,7 +1687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 580, y: -50}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &391525623
@@ -7978,7 +7978,7 @@ MonoBehaviour:
   _rabbit_WinCam: {fileID: 0}
   _foxCam_WinCam: {fileID: 0}
   _timer_Txt: {fileID: 1405037640}
-  _in_Game_Time_Txt: {fileID: 0}
+  _in_Game_Time_Txt: {fileID: 279108893}
   _countDuration: 10
   _inGameTime: 90
   _turn_player_Txt: {fileID: 1194574020}

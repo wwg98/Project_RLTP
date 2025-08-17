@@ -137,7 +137,7 @@ public class In_Game_Manger : MonoBehaviourPunCallbacks
             _my_photonView.RPC("OpenUI_RPC", RpcTarget.All);
         }
 
-        playercuser(false);
+        _my_photonView.RPC("RPC_SetCursor", RpcTarget.All, false);
         _card01.interactable = false;
         _card02.interactable = false;
         _card03.interactable = false;
@@ -570,7 +570,8 @@ public class In_Game_Manger : MonoBehaviourPunCallbacks
             print(_now_Progress);
             if (_now_Progress == GameBattleProgress.BUFF_CHOICE)
             {
-                if(PhotonNetwork.IsMasterClient)
+                _my_photonView.RPC("RPC_SetCursor", RpcTarget.All, true);
+                if (PhotonNetwork.IsMasterClient)
                 {
                     StartSharedTimer();
                 }
@@ -581,6 +582,7 @@ public class In_Game_Manger : MonoBehaviourPunCallbacks
             }
             else if (_now_Progress == GameBattleProgress.INGAME)
             {
+                _my_photonView.RPC("RPC_SetCursor", RpcTarget.All, false);
                 StartSharedTimer();
                 player_Controller.MoveControlle(true);
                 for (int i = 0; i < _exitList.Length; i++)
@@ -938,6 +940,11 @@ public class In_Game_Manger : MonoBehaviourPunCallbacks
         player_Controller.MoveControlle(true);
     }
 
+    [PunRPC]
+    void RPC_SetCursor(bool visible)
+    {
+        playercuser(visible);
+    }
     public void playercuser(bool visible)
     {
         if (visible)

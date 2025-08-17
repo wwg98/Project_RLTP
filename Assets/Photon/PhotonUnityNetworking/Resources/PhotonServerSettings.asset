@@ -110,6 +110,7 @@ MonoBehaviour:
   - SyncDoors
   - <DoorRoutine>g__SyncDoors|4_2
   - RPC_cardchoice
+  - RPC_SetCursor
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
